@@ -1,4 +1,4 @@
-# HP-EliteBook-840-G4-Hackintosh-Big-Sur
+# HP-EliteBook-840-G4 Hackintosh for Catalina and Big Sur
 
 BIOS Setup:
 
