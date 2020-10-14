@@ -2,10 +2,10 @@
 
 BIOS Setup:
 
-Update/Downgrade!!! to BIOS P78 v.129
+Update/Downgrade!!! to BIOS P78 v.1.29
 
+BIOS SETTINGS:
 Disable TPM Security
-
 Disable Physical Presence Interface
 Disable Intel SGX
 Enable System Management Command
