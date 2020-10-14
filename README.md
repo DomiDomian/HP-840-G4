@@ -2,8 +2,10 @@
 
 BIOS Setup:
 
-Update to BIOS Q85 01.09.01
+Update/Downgrade!!! to BIOS P78 v.129
+
 Disable TPM Security
+
 Disable Physical Presence Interface
 Disable Intel SGX
 Enable System Management Command
