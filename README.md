@@ -4,9 +4,9 @@
 
 
 
-BIOS Setup:
+# BIOS Setup:
 
-Update/Downgrade!!! to BIOS P78 v.1.29
+Update/Downgrade!!! to BIOS P78 v.1.29 / v.1.3.1 (extremely important becaus newer Versions don´t work!!!!)
 
 BIOS SETTINGS:
 
