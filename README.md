@@ -78,7 +78,7 @@ Disable Extended Idle Power States
 
 Disable Deep Sleep
 
-Disable Wake when Lid is Opened
+Enable Wake when Lid is Opened
 
 Disable Wake when AC is Detected
 
