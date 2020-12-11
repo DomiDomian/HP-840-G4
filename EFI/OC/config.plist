@@ -22,7 +22,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
+				<string>SSDT-UIAC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1042,6 +1042,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -1082,6 +1084,15 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>model</key>
+				<string>Sunrise Point-LP HD Audio</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,GfxYTile</key>
@@ -1098,15 +1109,6 @@
 				<data>AAAwAQ==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>model</key>
-				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1930,6 +1932,8 @@
 				<string>CustomOS</string>
 				<key>Path</key>
 				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -1941,6 +1945,8 @@
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
+			<false/>
+			<key>BlacklistAppleUpdate</key>
 			<false/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
@@ -1956,10 +1962,10 @@
 			<data></data>
 			<key>PasswordSalt</key>
 			<data></data>
-			<key>SecureBootModel</key>
-			<string>Disabled</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
+			<key>SecureBootModel</key>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1978,6 +1984,10 @@
 				<string>CleanNvram</string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1992,6 +2002,10 @@
 				<string>OpenShell</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -2018,7 +2032,7 @@
 				<key>boot-args</key>
 				<string>keepsyms=1 debug=0x100 agdpmod=vit9696 darkwake=1 alcdelay=500</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>dwgAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
@@ -2109,7 +2123,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02T70HGHV29</string>
 			<key>SystemUUID</key>
-			<string>0059508D-D447-42F4-ADD2-09B3957B010A</string>
+			<string>50FB77B2-0487-4CDE-B170-1D32C1A762AB</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -2119,18 +2133,18 @@
 			<string>C02706300J9HWVPUE</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>SystemProductName</key>
 			<string>MacBookPro14,1</string>
 			<key>SystemSerialNumber</key>
 			<string>C02T70HGHV29</string>
 			<key>SystemUUID</key>
-			<string>0059508D-D447-42F4-ADD2-09B3957B010A</string>
+			<string>50FB77B2-0487-4CDE-B170-1D32C1A762AB</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -2185,7 +2199,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02T70HGHV29</string>
 			<key>SystemUUID</key>
-			<string>0059508D-D447-42F4-ADD2-09B3957B010A</string>
+			<string>50FB77B2-0487-4CDE-B170-1D32C1A762AB</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -2220,7 +2234,7 @@
 			<key>AudioCodec</key>
 			<integer>351359220</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
@@ -2228,7 +2242,7 @@
 			<key>MinimumVolume</key>
 			<integer>60</integer>
 			<key>PlayChime</key>
-			<true/>
+			<string>Enabled</string>
 			<key>VolumeAmplifier</key>
 			<integer>143</integer>
 		</dict>
