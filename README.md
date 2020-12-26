@@ -7,14 +7,15 @@
 ##### Laptop Specifications:
 - Intel Core i5 7300U Quad Core CPU
 - Intel HD 620 Graphics
-- 8GB DDR4 2133MHz RAM
+- 32GB DDR4 2133MHz RAM
 - 14in Full HD LED Display
 - SMBus Synaptics TouchPad
-- BCM94360CS2 Wi-Fi and Bluetooth Card (upgraded)
+- Intel Wifi AC 8260
 - 2 USB 3.0 Ports, 1 USB Type-C Port
 - Display Port
 - SD Card Reader
-- 250GB Crucial BX500 SATA SSD
+- 1000GB Crucial BX500 NVME M.2 SSD
+- 256GB Samsung SSD (Sata)
 
 ##### BIOS Setup:
 #####NOW all new BIOS Versions are working! ((((Update/Downgrade!!! to BIOS P78 v.1.29 / v.1.3.1 (extremely important becaus newer Versions don´t work!!!!))))
