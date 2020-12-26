@@ -18,7 +18,7 @@
 - 256GB Samsung SSD (Sata)
 
 ##### BIOS Setup:
-#####NOW all new BIOS Versions are working! ((((Update/Downgrade!!! to BIOS P78 v.1.29 / v.1.3.1 (extremely important becaus newer Versions don´t work!!!!))))
+##### NOW all new BIOS Versions are working! ((((Update/Downgrade!!! to BIOS P78 v.1.29 / v.1.3.1 (extremely important becaus newer Versions don´t work!!!!))))
 
 - Disable TPM Security
 - Disable Physical Presence Interface
