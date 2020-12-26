@@ -1,7 +1,7 @@
 # HP-EliteBook-840-G4 Hackintosh for Catalina and Big Sur
 
 # ALL Working!Sleep/Wake,IntelWifi 8260 (native), SD-Card Reader
-
+![Screenshot]
 
 
 # BIOS Setup:
