@@ -59,11 +59,11 @@
 - Disable Wake on USB
 - Enable Power Control
 
-####Known issues:
+#### Known issues:
 
 SD-Card Reader does initialize but does not mount SD-Card after sleep
 
-####Credit:
+#### Credit:
 
 - Apple for MacOS
 - vit9696 for OpenCore
