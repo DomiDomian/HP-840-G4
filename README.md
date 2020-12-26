@@ -1,7 +1,7 @@
 ## OpenCore EFI for HP EliteBook 840G4 Hackintosh for Catalina and Big Sur
 
 ## ALL Working! Sleep/Wake, IntelWifi 8260 (native), SD-Card Reader
-![Screenshot](https://github.com/DominikHackintosh/HP-EliteBook-840-G4-Hackintosh-Big-Sur/blob/master/Screen%20Shot%202020-11-14%20at%2019.41.50.png)
+![Screenshot](https://github.com/DominikHackintosh/HP-EliteBook-840-G4-Hackintosh-Big-Sur/blob/master/Screen%20Shot%202020-12-26%20at%2004.19.00.png?raw=true)
 
 
 ##### Laptop Specifications:
