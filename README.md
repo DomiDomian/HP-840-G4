@@ -14,7 +14,7 @@
 - 2 USB 3.0 Ports, 1 USB Type-C Port
 - Display Port
 - SD Card Reader
-- 1000GB Crucial BX500 NVME M.2 SSD
+- 1000GB CRUCIAL - P1 SERIES 1TB - M.2 - CT1000P1SSD8 NVME
 - 256GB Samsung SSD (Sata)
 
 ##### BIOS Setup:
