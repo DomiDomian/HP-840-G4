@@ -1040,6 +1040,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>Patch</key>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AllowRelocationBlock</key>
@@ -1854,6 +1856,8 @@
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
@@ -1881,12 +1885,18 @@
 			<string>None</string>
 			<key>HideAuxiliary</key>
 			<false/>
+			<key>LauncherOption</key>
+			<string>Full</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -1894,7 +1904,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1907,7 +1917,7 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>0</integer>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
@@ -1948,8 +1958,6 @@
 			<false/>
 			<key>BlacklistAppleUpdate</key>
 			<false/>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -2123,11 +2131,13 @@
 			<key>SystemSerialNumber</key>
 			<string>C02T70HGHV29</string>
 			<key>SystemUUID</key>
-			<string>50FB77B2-0487-4CDE-B170-1D32C1A762AB</string>
+			<string>6EFF9C61-03E6-4B5C-9116-BACA5B0D934B</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
+			<false/>
+			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
 			<string>C02706300J9HWVPUE</string>
@@ -2144,7 +2154,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02T70HGHV29</string>
 			<key>SystemUUID</key>
-			<string>50FB77B2-0487-4CDE-B170-1D32C1A762AB</string>
+			<string>6EFF9C61-03E6-4B5C-9116-BACA5B0D934B</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -2199,7 +2209,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02T70HGHV29</string>
 			<key>SystemUUID</key>
-			<string>50FB77B2-0487-4CDE-B170-1D32C1A762AB</string>
+			<string>6EFF9C61-03E6-4B5C-9116-BACA5B0D934B</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -2211,6 +2221,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -2243,6 +2255,8 @@
 			<integer>60</integer>
 			<key>PlayChime</key>
 			<string>Enabled</string>
+			<key>SetupDelay</key>
+			<integer>0</integer>
 			<key>VolumeAmplifier</key>
 			<integer>143</integer>
 		</dict>
@@ -2250,6 +2264,7 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
+			<string>OpenCanopy.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>Ps2KeyboardDxe.efi</string>
 			<string>Ps2MouseDxe.efi</string>
@@ -2259,7 +2274,6 @@
 			<string>CrScreenshotDxe.efi</string>
 			<string>HPFanReset.efi</string>
 			<string>NvmExpressDxe.efi</string>
-			<string>OpenCanopy.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -2291,7 +2305,7 @@
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
-			<false/>
+			<true/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
@@ -2301,7 +2315,7 @@
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>Resolution</key>
-			<string>1600x900</string>
+			<string>1920x1080</string>
 			<key>SanitiseClearScreen</key>
 			<false/>
 			<key>TextRenderer</key>
@@ -2350,8 +2364,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>DeduplicateBootOrder</key>
-			<true/>
+			<key>DisableSecurityPolicy</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
