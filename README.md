@@ -1,7 +1,6 @@
 ## OpenCore EFI for HP EliteBook 840G4 Hackintosh for Catalina and Big Sur
 
 ## ALL Working! Sleep/Wake, IntelWifi 8260 (native), SD-Card Reader
-![Screenshot](https://github.com/DomiDomian/HP-840-G4/blob/master/IMG_20210208_182325.jpg)
 ![Screenshot](https://github.com/DomiDomian/HP-840-G4/blob/master/Screen%20Shot%202020-12-26%20at%2004.19.00.png)
 
 
@@ -17,7 +16,7 @@
 - SD Card Reader
 - 1000GB CRUCIAL - P1 SERIES 1TB - M.2 - CT1000P1SSD8 NVME
 - 256GB Samsung SSD (Sata)
-
+![Screenshot](https://github.com/DomiDomian/HP-840-G4/blob/master/IMG_20210208_182325.jpg)
 ##### BIOS Setup:
 ##### NOW all new BIOS Versions are working! ((((Update/Downgrade!!! to BIOS P78 v.1.29 / v.1.3.1 (extremely important because newer Versions don´t work!!!!))))
 
